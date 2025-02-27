@@ -15,7 +15,7 @@ const uint8_t TM1650_DOT_SEGMENT  = 0b10000000;
 //     ---
 //      D   P
 // PABCDEFG
-const uint8_t TM1650_ASCII_TO_RAW[] PROGMEM = {
+const uint8_t TM1650_ASCII_TO_RAW[] = {
     0b00000000,           // ' ', ord 0x20
     0b10110000,           // '!', ord 0x21
     0b00100010,           // '"', ord 0x22

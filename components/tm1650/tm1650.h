@@ -9,7 +9,7 @@ namespace tm1650 {
 
 #define TM1650_I2C_DCTL_BASE 0x24
 #define TM1650_I2C_DISP_BASE 0x34
-#define TM1650_MAX_DIGITS    16
+#define TM1650_MAX_DIGITS    3
 #define TM1650_MAX_SEGMENTS  8
 
 class TM1650Display;

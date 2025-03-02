@@ -90,7 +90,7 @@ const uint8_t TM1650_ASCII_TO_RAW[] = {
     0b00000100,           // 'g', ord 0x67 Service
     0b00001100,           // 'h', ord 0x68 Service Lock
     0b00000110,           // 'i', ord 0x69 Service KM/H
-    0b00111100,           // 'j', ord 0x6A
+    0b00001000,           // 'j', ord 0x6A Lock
     TM1650_UNKNOWN_CHAR,  // 'k', ord 0x6B
     0b00001110,           // 'l', ord 0x6C
     TM1650_UNKNOWN_CHAR,  // 'm', ord 0x6D

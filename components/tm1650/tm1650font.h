@@ -86,10 +86,10 @@ const uint8_t TM1650_ASCII_TO_RAW[] = {
     0b00011110,           // 'c', ord 0x63 Wooo
     0b00111110,           // 'd', ord 0x64 Woooo
     0b00111111,           // 'e', ord 0x65 Wooooo
-    0b01000111,           // 'f', ord 0x66
-    0b01011110,           // 'g', ord 0x67
-    0b00010111,           // 'h', ord 0x68
-    0b00010000,           // 'i', ord 0x69
+    0b00000010,           // 'f', ord 0x66 KM/H
+    0b00000100,           // 'g', ord 0x67 Service
+    0b00001100,           // 'h', ord 0x68 Service Lock
+    0b00000110,           // 'i', ord 0x69 Service KM/H
     0b00111100,           // 'j', ord 0x6A
     TM1650_UNKNOWN_CHAR,  // 'k', ord 0x6B
     0b00001110,           // 'l', ord 0x6C

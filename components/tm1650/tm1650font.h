@@ -81,11 +81,11 @@ const uint8_t TM1650_ASCII_TO_RAW[] = {
     TM1650_UNKNOWN_CHAR,  // '^', ord 0x5E
     0b00001000,           // '_', ord 0x5F
     0b00100000,           // '`', ord 0x60
-    0b01110111,           // 'a', ord 0x61
-    0b00011111,           // 'b', ord 0x62
-    0b00001101,           // 'c', ord 0x63
-    0b00111101,           // 'd', ord 0x64
-    0b01001111,           // 'e', ord 0x65
+    0b01000100,           // 'a', ord 0x61 Ro 
+    0b01001110,           // 'b', ord 0x62 RWoo
+    0b00011110,           // 'c', ord 0x63 Wooo
+    0b00111110,           // 'd', ord 0x64 Woooo
+    0b00111111,           // 'e', ord 0x65 Wooooo
     0b01000111,           // 'f', ord 0x66
     0b01011110,           // 'g', ord 0x67
     0b00010111,           // 'h', ord 0x68
